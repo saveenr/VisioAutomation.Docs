@@ -10,11 +10,9 @@ cp.Value = "Hello World";
 VisioAutomation.Shapes.CustomProperties.CustomPropertyHelper.Set(s1, "Propname", cp);
 
 // Retrieve all the Custom properties from a shape
-
 var props = VisioAutomation.Shapes.CustomProperties.CustomPropertyHelper.Get(s1);
 
 // Delete the property from the shape
-
 VisioAutomation.Shapes.CustomProperties.CustomPropertyHelper.Delete(s1, "Propname");
 ```
 
