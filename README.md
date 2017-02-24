@@ -1,4 +1,4 @@
-VisioAutomation
+# VisioAutomation
 
 **VisioAutomation** is a set of .NET libraries designed to make it simpler to automate and programatically control Microsoft Visio.
 
@@ -8,7 +8,7 @@ VisioAutomation
 * Automate Visio via scripting tools such as PowerShell and IronPython
 * Control the Visio application from other applications
 
-### 
+
 
 ### NuGet Packages
 
