@@ -1,8 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](chapter1.md)
-* [Resources](resources.md)
 * [Compiling](compiling.md)
 * [Custom Properties](custom-properties.md)
 * [Dropping Masters](dropping-masters.md)
@@ -24,4 +22,5 @@
   * [Modifying the ShapeSheet](shapesheet/modifying-the-shapesheet.md)
 * [Unit Conversions](unit-conversions.md)
 * [User-Defined Cells](user-defined-cells.md)
+* [Resources](resources.md)
 

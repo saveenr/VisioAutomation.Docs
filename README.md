@@ -8,8 +8,6 @@ VisioAutomation is a set of .NET libraries designed to make it simpler to automa
 * Automate Visio via scripting tools such as PowerShell and IronPython
 * Control the Visio application from other applications
 
-
-
 ### Introduction
 
 **VisioAutomation**makes it easier for developers to control Visio from .NET languages. In addition to simplifying common tasks, it makes it easier to build your own Visio add-ins and automation/scripting tools.
@@ -28,15 +26,15 @@ Git Clone url:[https://github.com/saveenr/VisioAutomation/](https://github.com/s
 ### Projects that Use VisioAutomation
 
 * [**Visio PowerShell**](https://github.com/saveenr/VisioPowerShell/wiki)
-  - a PowerShell module for Automating Visio 2010.
+  * a PowerShell module for Automating Visio 2010.
 * **Power Tools for Visio 2010**
-  - Semi-Useful tools \(in active development\)
-  [Downloads](https://github.com/saveenr/Visio-Power-Tools/releases)
+  * Semi-Useful tools \(in active development\)
+    [Downloads](https://github.com/saveenr/Visio-Power-Tools/releases)
 * **Power Tools for Visio 2007**
-  - Semi-Useful tools Stable \(in maintenance mode\)
-  [Downloads](https://github.com/saveenr/Visio-Power-Tools/releases)
+  * Semi-Useful tools Stable \(in maintenance mode\)
+    [Downloads](https://github.com/saveenr/Visio-Power-Tools/releases)
 * [VisioAutomation.VDX](https://github.com/saveenr/VisioAutomation.VDX)
-  - to generate simple Visio XML \(VDX\) files without even having Visio installed.
+  * to generate simple Visio XML \(VDX\) files without even having Visio installed.
 
 ## Other Visio Related Proejcts
 
