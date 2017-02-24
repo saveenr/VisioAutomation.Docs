@@ -1,20 +1,14 @@
-# VisioAutomation
+VisioAutomation
 
-VisioAutomation is a set of .NET libraries designed to make it simpler to automate and programatically control Microsoft Visio.
+**VisioAutomation** is a set of .NET libraries designed to make it simpler to automate and programatically control Microsoft Visio.
 
-### VisioAutomation helps you
+**VisioAutomation** helps you
 
 * Write Visio Add-ins
 * Automate Visio via scripting tools such as PowerShell and IronPython
 * Control the Visio application from other applications
 
-### Introduction
-
-**VisioAutomation**makes it easier for developers to control Visio from .NET languages. In addition to simplifying common tasks, it makes it easier to build your own Visio add-ins and automation/scripting tools.
-
-### Source
-
-Git Clone url:[https://github.com/saveenr/VisioAutomation/](https://github.com/saveenr/VisioAutomation/)
+### 
 
 ### NuGet Packages
 
@@ -36,18 +30,13 @@ Git Clone url:[https://github.com/saveenr/VisioAutomation/](https://github.com/s
 * [VisioAutomation.VDX](https://github.com/saveenr/VisioAutomation.VDX)
   * to generate simple Visio XML \(VDX\) files without even having Visio installed.
 
-## Other Visio Related Proejcts
+### Source Code
 
-* [**VisioBot3000**](https://github.com/MikeShepard/VisioBot3000)
+Git Clone url: [https://github.com/saveenr/VisioAutomation/](https://github.com/saveenr/VisioAutomation/)
 
-### Fun Stuff
+Watch the Gource visualization of the Git commits from 2011 to 2015: [https://vimeo.com/128739957](https://vimeo.com/128739957)
 
-* Watch the Gource visualization of the Git commits from 1011 to 2015:
-  [https://vimeo.com/128739957](https://vimeo.com/128739957)
-
-### References
-
-* TO use VisioAutomation, your project will need a reference to the "Microsoft Visio 14.0 Type Library". Version 4.14
+### 
 
 
 

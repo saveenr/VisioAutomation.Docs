@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+  * [Related Projects](related-projects.md)
 * [Compiling](compiling.md)
 * [Custom Properties](custom-properties.md)
 * [Dropping Masters](dropping-masters.md)
