@@ -14,7 +14,6 @@ using VA=VisioAutomation;
 
 var src_0 = new VA.ShapeSheet.SRC(0,0,0);
 var src_1 = new VA.ShapeSheet.SRC((short) 0,(short) 0,(short) 0);
-
 ```
 
 But, what about a SRC to points to something useful like the fill foreground color? Simple enough ...
@@ -26,7 +25,6 @@ using CEL= Microsoft.Office.Interop.Visio.VisCellIndices;
 using VA=VisioAutomation;
 
 var fg_src = VA.ShapeSheet.SRC(SEC.visSectionObject, ROW.visRowFill, CEL.visFillForegnd);
-
 ```
 
 That can be a lot to remember. The good news is VisioAutomation comes with a class that has predefined values for many of these \(s,r,c\) values for cells.
@@ -49,7 +47,6 @@ Height
 Width 
 PinX 
 PinY 
-
 ```
 
 so to get the \(s,r,c\) value for FillPattern we just need to write this
@@ -58,7 +55,6 @@ so to get the \(s,r,c\) value for FillPattern we just need to write this
 using VA=VisioAutomation;
 
 var filpat_src = VA.ShapeSheet.SRCConstants.FillPattern;
-
 ```
 
 ### Immutability
@@ -77,7 +73,6 @@ if (pinx_src.HasValue)
 {
     // do nothing
 }
-
 ```
 
 Converting between \(s,r,c\) values and cell names There's no helper method in the library that will do this. It will be considered for a future version.
