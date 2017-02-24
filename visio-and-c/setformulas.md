@@ -32,9 +32,7 @@ public static void Page_SetFormulas(IVisio.Document doc)
     // MAP THE REQUEST TO THE STRUCTURES VISIO EXPECTS
     short[] SID_SRCStream = new short[items.Length * 4];
     object[] formulas_objects = new object[items.Length];
-    for (int i = 0; i 
-<
- items.Length; i++)
+    for (int i = 0; i < items.Length; i++)
     {
         SID_SRCStream[i * 4 + 0] = items[i].shapeid;
         SID_SRCStream[i * 4 + 1] = items[i].section;
@@ -50,7 +48,6 @@ public static void Page_SetFormulas(IVisio.Document doc)
     // DISPLAY THE INFORMATION
     shape.Text = "SetFormulas";
 }
-
 ```
 
 ### Shape.SetFormulas

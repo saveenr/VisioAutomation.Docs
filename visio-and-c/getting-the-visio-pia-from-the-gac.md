@@ -5,11 +5,15 @@
 * Launch CMD
 * Run this command
 
-  SUBST x: C:\Windows\assembly
+  ```
+  SUBST X: C:\Windows\assembly
+  ```
 
 * CD to the location of the Assembly
 
-  CD X:\GAC\_MSIL\Microsoft.Office.Interop.Visio\14.0.0.0\_\_71e9bce111e9429c
+  ```
+  CD X:\GAC_MSIL\Microsoft.Office.Interop.Visio\14.0.0.0__71e9bce111e9429c
+  ```
 
 * Copy Microsoft.Office.Interop.Visio.dll from that folder somewhere else
 

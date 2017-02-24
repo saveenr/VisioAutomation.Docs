@@ -31,9 +31,7 @@ public static void Page_GetResults(IVisio.Document doc)
     // MAP THE REQUEST TO THE STRUCTURES VISIO EXPECTS
     short[] SID_SRCStream = new short[items.Length * 4];
     object[] unitcodes = new object[items.Length];
-    for (int i = 0; i 
-<
- items.Length; i++)
+    for (int i = 0; i < items.Length; i++)
     {
         SID_SRCStream[i * 4 + 0] = items[i].shapeid;
         SID_SRCStream[i * 4 + 1] = items[i].section;
@@ -55,7 +53,6 @@ public static void Page_GetResults(IVisio.Document doc)
     shape.Text = string.Format("Results={0},{1}", results_doubles[0], results_doubles[1]);
 
 }
-
 ```
 
 ### Shape.GetResults
@@ -89,9 +86,7 @@ public static void Shape_GetResults(IVisio.Document doc)
     // MAP THE REQUEST TO THE STRUCTURES VISIO EXPECTS
     short[] SRCStream = new short[items.Length * 3];
     object[] unitcodes = new object[items.Length];
-    for (int i = 0; i 
-<
- items.Length; i++)
+    for (int i = 0; i < items.Length; i++)
     {
         SRCStream[i * 3 + 0] = items[i].section;
         SRCStream[i * 3 + 1] = items[i].row;
@@ -110,8 +105,8 @@ public static void Shape_GetResults(IVisio.Document doc)
 
     // DISPLAY THE INFORMATION
     shape.Text = string.Format("Results={0},{1}", results_doubles[0], results_doubles[1]);
-
+}
 ```
 
-}
+
 

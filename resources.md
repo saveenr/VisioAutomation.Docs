@@ -10,11 +10,13 @@ The library simplifies a lot of tasks, but it cannot remove the need for you to 
 
 [http://stackoverflow.com/questions/tagged/visio](http://stackoverflow.com/questions/tagged/visio)
 
-#### Visio 2003 Developer's Survival Pack by Graham Widemann
+#### Visio 2003 Developer's Survival Pack 
 
-Language: English
+* Author: Graham Widemann
+* Language: English
+* ISBN-10: 1412011124 ISBN-13: 978-1412011129
+* The Kindle version \([http://amzn.com/B001GS6Q8K](http://amzn.com/B001GS6Q8K)\) 
+* Printed version \([http://amzn.com/1412011124](http://amzn.com/1412011124)\)
 
-ISBN-10: 1412011124 ISBN-13: 978-1412011129
 
-The Kindle version[http://amzn.com/B001GS6Q8K](http://amzn.com/B001GS6Q8K)is much less expensive than the printed version[http://amzn.com/1412011124](http://amzn.com/1412011124)
 

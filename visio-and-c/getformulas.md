@@ -25,9 +25,7 @@
 
     // MAP THE REQUEST TO THE STRUCTURES VISIO EXPECTS
     short[] SID_SRCStream = new short[items.Length * 4];
-    for (int i = 0; i 
-<
- items.Length; i++)
+    for (int i = 0; i < items.Length; i++)
     {
         SID_SRCStream[i * 4 + 0] = items[i].shapeid;
         SID_SRCStream[i * 4 + 1] = items[i].section;
@@ -45,7 +43,6 @@
 
     // DISPLAY THE INFORMATION
     shape.Text = string.Format("Formulas={0},{1}", formulas[0], formulas[1]);
-
 ```
 
 ### Shape.GetFormulas
@@ -75,9 +72,7 @@ public static void Shape_GetFormulas(IVisio.Document doc)
 
     // MAP THE REQUEST TO THE STRUCTURES VISIO EXPECTS
     short[] SRCStream = new short[items.Length * 3];
-    for (int i = 0; i 
-<
- items.Length; i++)
+    for (int i = 0; i < items.Length; i++)
     {
         SRCStream[i * 3 + 0] = items[i].section;
         SRCStream[i * 3 + 1] = items[i].row;

@@ -30,7 +30,6 @@ Getting a formula from a single cell from a shape
 var query = new VA.ShapeSheet.Query.CellQuery();
 var col_fg = query.AddColumn(src_fg);
 var formulas = query.GetFormulas(shape);
-
 ```
 
 formulas will be Table object - with one column and with one row
@@ -40,7 +39,6 @@ To get the retrieved value
 ```
 string f_fg = formulas[0,0]
 string f_fg = formulas[0,col_fg]
-
 ```
 
 Getting a formula from multiple cells from a shape
@@ -51,7 +49,6 @@ var col_fg = query.AddColumn(src_fg);
 var col_bg = query.AddColumn(src_bg);
 var col_filpat = query.AddColumn(src_filpat);
 var formulas = query.GetFormulas(shape);
-
 ```
 
 You can retrieve the values like this
@@ -60,7 +57,6 @@ You can retrieve the values like this
 string f_fg = formulas[0,col_fg]
 string f_bg = formulas[0,col_bg]
 string f_filpat = formulas[0,col_filpat]
-
 ```
 
 ### Returning Results from a single shape
@@ -70,27 +66,10 @@ Now let's learn how to return results.
 The first thing you should realize is that you can specify what datatype to return the results in. Your choices are double, bool, intm string. To specify the type you will use a generic parameter on the GetResults\(\) method.
 
 ```
-double [] results_double = query.GetResults
-<
-double
->
-(shape);
-int [] results_int = query.GetResults
-<
-int
->
-(shape);
-int [] results_bool = query.GetResults
-<
-bool
->
-(shape);
-string [] results_string = query.GetResults
-<
-string
->
-(shape);
-
+double [] results_double = query.GetResults<double>(shape);
+int [] results_int = query.GetResults<int>(shape);
+int [] results_bool = query.GetResults<bool>(shape);
+string [] results_string = query.GetResults<string>(shape);
 ```
 
 ### A Note about grouping
@@ -109,7 +88,6 @@ Imagine you want to query all the cells in a specific section. For example maybe
 var query = new VA.ShapeSheet.Query.SectionQuery((short)IVisio.VisSectionIndices.visSectionProp);
 var query.AddColumn(VA.ShapeSheet.SRCConstants.Char_Color.Cell);
 var formulas = query.GetFormulas(shape1);
-
 ```
 
 The returned table contains more than one row. But it contains exactly one group - each group is mapped to a specific shape - that contains all the rows.
@@ -124,7 +102,6 @@ var col_fg = query.AddColumn(src_fg);
 var col_bg = query.AddColumn(src_bg);
 var shapeids = new int { shape1.ID, shape2.ID }
 var formulas = query.GetFormulas(page, shapeids);
-
 ```
 
 Now the formulas table that is returned will have exactly two rows and twoc olumns. It will also have two groups. Each group identifies one row.
@@ -136,7 +113,6 @@ var query = new VA.ShapeSheet.Query.SectionQuery((short)IVisio.VisSectionIndices
 var query.AddColumn(VA.ShapeSheet.SRCConstants.Char_Color.Cell);
 var shapeids = new[] { s1.ID, s2.ID, s3.ID, s4.ID };
 var formulas = query.GetFormulas(page1, shapeids);
-
 ```
 
 The formulas table will have multiple rows, but will have exactly two groups. Each group will contain 1 or more rows.
