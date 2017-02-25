@@ -1,6 +1,6 @@
-body, table, select, input, li {
-    font-size: 10pt;
-    font-family: Times New Roman;
+body, table, select, input, li , p {
+    font-size: 9pt;
+    font-family: "Times New Roman";
 }
 
 pre {
