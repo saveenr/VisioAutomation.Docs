@@ -5,7 +5,6 @@
 * [Compiling](compiling.md)
 * [Custom Properties](custom-properties.md)
 * [Dropping Masters](dropping-masters.md)
-* [Stencils and Masters](visio-and-c/stencils-and-masters.md)
 * [Extension Methods](extension-methods.md)
 * [ShapeSheet](shapesheet.md)
   * [Cells](shapesheet/cells.md)
@@ -20,4 +19,5 @@
   * [SetFormulas](visio-and-c/setformulas.md)
   * [Getting the Visio PIA from the GAC](visio-and-c/getting-the-visio-pia-from-the-gac.md)
 * [Resources](resources.md)
+  * [Stencils and Masters](visio-and-c/stencils-and-masters.md)
 

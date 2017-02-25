@@ -1,4 +1,4 @@
-### Dropping Shapes
+### Working with Stencils and Masters
 
 These samples rely on some extension methods so use this at the top:
 
