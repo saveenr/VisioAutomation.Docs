@@ -1,9 +1,14 @@
-body, table, select, input, li , p {
-    font-size: 9pt;
-    font-family: "Times New Roman";
+h1,h2,h3,h4,h4,h6 {
+    font-family: "Segoe UI", Arial; Helvetica;
 }
 
-pre {
+
+body, table, select, input, li , p {
+    font-size: 9pt;
+    font-family: "Segoe UI", Arial; Helvetica;
+}
+
+pre, code {
     font-size: 8pt;
     font-family: consolas; courier new;
 }
