@@ -1,21 +1,24 @@
-## Advanced Notes
+## Getting the Microsoft.Office.Interop.Visio.dll assembly from the GAC
 
-### getting the Microsoft.Office.Interop.Visio.dll assembly from the GAC
+Launch CMD
 
-* Launch CMD
-* Run this command
+Run this command
 
-  ```
-  SUBST X: C:\Windows\assembly
-  ```
+```
+SUBST X: C:\Windows\assembly
+```
 
-* CD to the location of the Assembly
+CD to the location of the Assembly
 
-  ```
-  CD X:\GAC_MSIL\Microsoft.Office.Interop.Visio\14.0.0.0__71e9bce111e9429c
-  ```
+```
+CD X:\GAC_MSIL\Microsoft.Office.Interop.Visio\14.0.0.0__71e9bce111e9429c
+```
 
-* Copy Microsoft.Office.Interop.Visio.dll from that folder somewhere else
+Copy the **Microsoft.Office.Interop.dll** out of the folder
+
+```
+COPY X:\GAC_MSIL\Microsoft.Office.Interop.Visio\14.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Dll d:\PIA
+```
 
 
 
