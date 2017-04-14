@@ -1,21 +1,16 @@
 # VisioAutomation
 
-**VisioAutomation** is a set of .NET libraries designed to make it simpler to automate and programatically control Microsoft Visio.
+**VisioAutomation** is a set of .NET libraries designed to make it simpler to automate **Microsoft Visio**.
 
 **VisioAutomation** helps you
 
 * Write Visio Add-ins
-* Automate Visio via scripting tools such as PowerShell and IronPython
-* Control the Visio application from other applications
-
-
+* Control the Visio application from other applications or scripting languages
 
 ### NuGet Packages
 
-* **Visio Automation 2007**
-  [NuGet package](http://www.nuget.org/packages/VisioAutomation2007/)
-* **Visio Automation 2010**
-  [NuGet package](http://www.nuget.org/packages/VisioAutomation2010/)
+* **Visio Automation 2010 **[NuGet package](http://www.nuget.org/packages/VisioAutomation2010/)
+* **Visio Automation 2007 **[NuGet package](http://www.nuget.org/packages/VisioAutomation2007/) \(no longer actively developed\)
 
 ### Projects that Use VisioAutomation
 
@@ -34,7 +29,11 @@
 
 Git Clone url: [https://github.com/saveenr/VisioAutomation/](https://github.com/saveenr/VisioAutomation/)
 
-Watch the Gource visualization of the Git commits from 2011 to 2015: [https://vimeo.com/128739957](https://vimeo.com/128739957)
+
+
+### Fun Stuff
+
+Watch the **Gource **visualization of the Git commits from 2011 to 2015: [https://vimeo.com/128739957](https://vimeo.com/128739957)
 
 ### 
 

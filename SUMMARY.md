@@ -10,7 +10,7 @@
   * [Querying the ShapeSheet](shapesheet/querying-the-shapesheet.md)
   * [Modifying the ShapeSheet](shapesheet/modifying-the-shapesheet.md)
 * [User-Defined Cells](user-defined-cells.md)
-* [Unit Conversions](unit-conversions.md)
+* [Converting Values](unit-conversions.md)
 * [Custom Properties](custom-properties.md)
 * [Visio and C\#](visio-and-c.md)
   * [GetResults](visio-and-c/getresults.md)
