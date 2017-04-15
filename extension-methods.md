@@ -2,7 +2,6 @@
 
 ```
 VisioAutomation.Extensions
-
 ```
 
 ### Summary
@@ -13,7 +12,6 @@ The VisioAutomation.Extensions contains a series of useful extension methods. To
 
 ```
 Shapes.GetShapesFromIDs
-
 ```
 
 Methods like DropManyU don't return Shape objects but rather their IDs. If you want to quickly get the shape objects from a list of shape IDs then .Shapes.GetShapesFromIDs can be used.
@@ -22,15 +20,13 @@ Methods like DropManyU don't return Shape objects but rather their IDs. If you w
 var shapes = page.Shapes.GetShapesFromIDs(shapeids)
 
 Page.ResizeToFitContents(w,h)
-
 ```
 
-Visio aready has a Page.ResizrToFitContents\(\) method but this extension method makes it easy to ensure a width and height for the margins
+Visio aready has a Page.ResizeToFitContents\(\) method but this extension method makes it easy to ensure a width and height for the margins
 
 ```
 var margin_size = new VA.Drawing.Size(0.5,0.5);
 page.ResizeToFitContents(margin_size);
-
 ```
 
 ### Fonts.AsEnumerable\(\)
